@@ -35,3 +35,7 @@ def test_average_empty():
 def test_averge_not_a_list():
     with pytest.raises(TypeError):
         average("HIIIIII")
+
+def test_average_bad_items():
+    with pytest.raises(TypeError):
+        average([80,"90",70])
