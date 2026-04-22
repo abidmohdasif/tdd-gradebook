@@ -41,4 +41,4 @@ def test_average_bad_items():
         average([80,"90",70])
 
 def test_curved_score_basic():
-    assert curved_score(80, 5) = 85
+    assert curved_score(80, 5) == 85
