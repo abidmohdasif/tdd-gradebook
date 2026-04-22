@@ -16,5 +16,5 @@ def test_letter_grade_invalid_type():
         letter_grade("hello")
 
 def test_is_passing_true():
-    assert is_passing(75) == True 
+    assert is_passing(75) == True
 
