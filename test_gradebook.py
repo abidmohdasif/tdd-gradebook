@@ -30,4 +30,4 @@ def test_average_works():
 
 def test_average_empty():
     with pytest.raises(ValueError):
-        is_passing([])
+        average([])
